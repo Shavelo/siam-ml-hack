@@ -1,0 +1,10 @@
+data:
+  raw_path: "data/raw/main_dataset.csv"
+  partial_labels_path: "data/raw/partial_labels.csv"
+  test_path: "data/raw/test_dataset.csv"
+  processed_path: "data/processed/processed_data.csv"
+  submit_path: "data/submissions/submission.csv"
+
+model:
+  window_size: 50
+  min_duration: 4  # Минимальная длительность интервала (часы)

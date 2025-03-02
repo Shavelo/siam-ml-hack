@@ -11,3 +11,6 @@ __pycache__/
 # Виртуальное окружение
 venv/
 .env
+
+# Catboost
+notebooks/catboost_info/
